@@ -1,4 +1,3 @@
-cat > generate_wordlist.py << 'EOF'
 #!/usr/bin/env python3
 """
 Wordlist Generator for Subdomain Enumeration
@@ -30,4 +29,3 @@ with open('wordlists/common.txt', 'w') as f:
 
 print(f"[+] Generated wordlist with {len(set(wordlist))} words")
 print("[+] Saved to wordlists/common.txt")
-EOF
